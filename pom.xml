@@ -31,6 +31,11 @@
   </dependencyManagement>
   <dependencies>
     <dependency>
+      <groupId>com.martijndashorst.runcc</groupId>
+      <artifactId>runcc</artifactId>
+      <version>0.7-SNAPSHOT</version>
+    </dependency>
+    <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-arc</artifactId>
     </dependency>
