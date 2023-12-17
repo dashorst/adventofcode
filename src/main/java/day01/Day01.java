@@ -3,14 +3,8 @@ package day01;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.Arrays;
 import java.util.HashMap;
-import java.util.Map;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
-
-import io.quarkus.arc.impl.Sets;
 
 /**
  * You try to ask why they can't just use a weather machine ("not powerful
@@ -110,13 +104,7 @@ public class Day01 {
         return result;
     }
 
-    private static String reverse(String input) {
-        StringBuilder sb = new StringBuilder(input.length());
-        for (int i = input.length() - 1; i >= 0; i--)
-            sb.append(input.charAt(i));
-        return sb.toString();
-    }
-
+    @SuppressWarnings("unused")
     private static String callibratePartOne(String input) {
         String first = "", last = "";
         for (int i = 0; i < input.length(); i++) {
