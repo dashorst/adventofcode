@@ -1,8 +1,5 @@
 package day06;
 
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -110,6 +107,7 @@ import java.util.Map;
  * Determine the number of ways you could beat the record in each race. What do
  * you get if you multiply these numbers together?
  */
+@SuppressWarnings("unused")
 public class Day06Part1 {
     private static final String DEMO_INPUT = """
             Time:      7  15   30
@@ -136,9 +134,6 @@ public class Day06Part1 {
     }
 
     public static void main(String[] args) throws Exception {
-        var input = DEMO_INPUT;
-
-        // input = PROD_INPUT;
         {
             var race1 = new Race(7, 9);
             var race2 = new Race(15, 40);
