@@ -1,4 +1,4 @@
-package day08;
+package adventofcode2023.day08;
 
 import java.nio.file.Files;
 import java.nio.file.Path;

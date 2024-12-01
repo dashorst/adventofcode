@@ -1,4 +1,4 @@
-package day06;
+package adventofcode2023.day06;
 
 import java.util.stream.LongStream;
 
